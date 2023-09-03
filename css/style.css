@@ -258,6 +258,8 @@ body {
 /* Review start */
 .review h2 {
   text-align: center;
+  padding: 5rem 0% 0.5rem;
+  font-size: 2.6rem;
 }
 .review span {
   color: var(--primary);
@@ -298,7 +300,6 @@ body {
 footer {
   background-color: var(--primary);
   text-align: center;
-  padding: 1rem 3;
   margin-top: 3rem;
 }
 
@@ -309,6 +310,7 @@ footer .socials {
 footer .socials a {
   color: #fff;
   margin: 1rem;
+  text-decoration: none;
 }
 
 footer .socials a:hover {
@@ -322,12 +324,19 @@ footer .links a {
   color: #fff;
   padding: 0.7rem 1rem;
 }
+footer .links a:hover {
+  color: var(--bg);
+  padding: 0.7rem 1rem;
+}
 footer .credit {
   font-size: 0.8rem;
 }
 footer .credit a {
   color: var(--bg);
   font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1.4rem;
 }
 /* Media queris */
 
